@@ -316,7 +316,7 @@ U 1 1 5D7A2CE8
 P 8200 5300
 F 0 "J7" H 8300 5182 50  0000 L CNN
 F 1 "Conn_Coaxial" H 8300 5273 50  0000 L CNN
-F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 8200 5300 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 8200 5300 50  0001 C CNN
 F 3 "https://www.mouser.co.uk/datasheet/2/185/U.FL_catalog-939761.pdf" H 8200 5300 50  0001 C CNN
 F 4 "0.617" H 8200 5300 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/coaxial-plugs-sockets/7025425/" H 8200 5300 50  0001 C CNN "Purchase link"
