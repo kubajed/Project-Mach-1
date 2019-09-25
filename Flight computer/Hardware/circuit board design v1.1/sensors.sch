@@ -108,7 +108,7 @@ U 1 1 5D88305F
 P 9900 4900
 F 0 "C77" H 9992 4946 50  0000 L CNN
 F 1 "220nF" H 9992 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9900 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9900 4900 50  0001 C CNN
 F 3 "~" H 9900 4900 50  0001 C CNN
 	1    9900 4900
 	1    0    0    -1  
@@ -249,7 +249,7 @@ U 1 1 5D951B11
 P 5550 5450
 F 0 "C14" V 5400 5550 50  0000 L CNN
 F 1 "100nF" V 5400 5300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5550 5450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5550 5450 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0dc2/0900766b80dc2409.pdf" H 5550 5450 50  0001 C CNN
 F 4 "0.01" H 5550 5450 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/6983251/" H 5550 5450 50  0001 C CNN "Purchase link"
@@ -369,7 +369,7 @@ U 1 1 5D98BC07
 P 3900 1200
 F 0 "C15" H 3992 1246 50  0000 L CNN
 F 1 "100nF" H 3992 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3900 1200 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0dc2/0900766b80dc2409.pdf" H 3900 1200 50  0001 C CNN
 F 4 "0.01" H 3900 1200 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/6983251/" H 3900 1200 50  0001 C CNN "Purchase link"
@@ -416,7 +416,7 @@ U 1 1 5D99969F
 P 4750 4950
 F 0 "C16" H 4550 5050 50  0000 L CNN
 F 1 "100nF" H 4500 4850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 4950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 4950 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0dc2/0900766b80dc2409.pdf" H 4750 4950 50  0001 C CNN
 F 4 "0.01" H 4750 4950 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/6983251/" H 4750 4950 50  0001 C CNN "Purchase link"
@@ -485,7 +485,7 @@ U 1 1 5D9BAB69
 P 5300 1150
 F 0 "C17" H 5392 1196 50  0000 L CNN
 F 1 "100nF" H 5392 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5300 1150 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0dc2/0900766b80dc2409.pdf" H 5300 1150 50  0001 C CNN
 F 4 "0.01" H 5300 1150 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/6983251/" H 5300 1150 50  0001 C CNN "Purchase link"
@@ -524,7 +524,7 @@ U 1 1 5D9CF4D4
 P 3050 3300
 F 0 "C24" H 3142 3346 50  0000 L CNN
 F 1 "10nF" H 3142 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 3300 50  0001 C CNN
 F 3 "~" H 3050 3300 50  0001 C CNN
 F 4 "0.031" H 3050 3300 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8391727/" H 3050 3300 50  0001 C CNN "Purchase link"
@@ -555,7 +555,7 @@ U 1 1 5D9D48A7
 P 3450 3300
 F 0 "C25" H 3542 3346 50  0000 L CNN
 F 1 "100nF" H 3542 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3450 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3450 3300 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0dc2/0900766b80dc2409.pdf" H 3450 3300 50  0001 C CNN
 F 4 "0.01" H 3450 3300 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/6983251/" H 3450 3300 50  0001 C CNN "Purchase link"
@@ -726,7 +726,7 @@ U 1 1 5D93DCCD
 P 7500 3600
 F 0 "R4" H 7570 3646 50  0000 L CNN
 F 1 "4.7K" H 7570 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 7430 3600 50  0001 C CNN
 F 3 "~" H 7500 3600 50  0001 C CNN
 	1    7500 3600
 	1    0    0    -1  
@@ -739,7 +739,7 @@ U 1 1 5D93E817
 P 7800 3600
 F 0 "R8" H 7870 3646 50  0000 L CNN
 F 1 "4.7K" H 7870 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7730 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 7730 3600 50  0001 C CNN
 F 3 "~" H 7800 3600 50  0001 C CNN
 	1    7800 3600
 	1    0    0    -1  

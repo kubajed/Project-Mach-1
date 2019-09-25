@@ -123,7 +123,7 @@ U 1 1 5D740EF6
 P 7700 4000
 F 0 "C34" H 7815 4046 50  0000 L CNN
 F 1 "10nF" H 7815 3955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7738 3850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7738 3850 50  0001 C CNN
 F 3 "~" H 7700 4000 50  0001 C CNN
 F 4 "0.031" H 7700 4000 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8391727/" H 7700 4000 50  0001 C CNN "Purchase link"
@@ -431,7 +431,7 @@ U 1 1 5D759625
 P 4150 4800
 F 0 "R28" H 4220 4846 50  0000 L CNN
 F 1 "120K" H 4220 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 4080 4800 50  0001 C CNN
 F 3 "~" H 4150 4800 50  0001 C CNN
 F 4 "0.035" H 4150 4800 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/surface-mount-fixed-resistors/6789715/" H 4150 4800 50  0001 C CNN "Purchase link"
@@ -445,7 +445,7 @@ U 1 1 5D75961B
 P 4150 5300
 F 0 "R29" H 4220 5346 50  0000 L CNN
 F 1 "120K" H 4220 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 4080 5300 50  0001 C CNN
 F 3 "~" H 4150 5300 50  0001 C CNN
 F 4 "0.035" H 4150 5300 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/surface-mount-fixed-resistors/6789715/" H 4150 5300 50  0001 C CNN "Purchase link"

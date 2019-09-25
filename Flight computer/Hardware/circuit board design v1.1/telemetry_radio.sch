@@ -429,7 +429,7 @@ U 1 1 5D7EC4A3
 P 4350 3600
 F 0 "C23" H 4258 3646 50  0000 R CNN
 F 1 "100nF" H 4258 3555 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4350 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4350 3600 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0dc2/0900766b80dc2409.pdf" H 4350 3600 50  0001 C CNN
 F 4 "0.01" H 4350 3600 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/6983251/" H 4350 3600 50  0001 C CNN "Purchase link"
@@ -457,7 +457,7 @@ U 1 1 5D6BC5E2
 P 800 3500
 F 0 "C21" H 1050 3500 50  0000 C CNN
 F 1 "33nF" H 1050 3400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 800 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 800 3500 50  0001 C CNN
 F 3 "~" H 800 3500 50  0001 C CNN
 	1    800  3500
 	1    0    0    1   
@@ -468,7 +468,7 @@ U 1 1 5D6C2DE3
 P 2300 3900
 F 0 "C20" H 2550 3900 50  0000 C CNN
 F 1 "10nF" H 2550 3800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 3900 50  0001 C CNN
 F 3 "~" H 2300 3900 50  0001 C CNN
 F 4 "0.031" H 2300 3900 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8391727/" H 2300 3900 50  0001 C CNN "Purchase link"

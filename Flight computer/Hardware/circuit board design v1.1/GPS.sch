@@ -198,7 +198,7 @@ AR Path="/5D5B17D8/5D99D571" Ref="C?"  Part="1"
 AR Path="/5D5B165E/5D99D571" Ref="C11"  Part="1" 
 F 0 "C11" H 5208 2896 50  0000 R CNN
 F 1 "100nF" H 5208 2805 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5300 2850 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0dc2/0900766b80dc2409.pdf" H 5300 2850 50  0001 C CNN
 F 4 "0.01" H 5300 2850 50  0001 C CNN "Cost"
 F 5 "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/6983251/" H 5300 2850 50  0001 C CNN "Purchase link"
