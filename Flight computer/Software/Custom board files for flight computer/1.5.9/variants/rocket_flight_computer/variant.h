@@ -173,6 +173,8 @@ static const uint8_t RI_AS = (18u);
 /*
  * SPI Interfaces
  */
+#define ENABLE_SPI1
+
 
 #ifdef ENABLE_SPI1
 #define SPI_INTERFACES_COUNT 2
@@ -181,10 +183,10 @@ static const uint8_t RI_AS = (18u);
 #endif
 
 // SPI
-#define PIN_SPI_MISO         (61u) // pad 2
-#define PIN_SPI_SS           (62u) // pad 3
-#define PIN_SPI_MOSI         (63u) // pad 0
-#define PIN_SPI_SCK          (64u) // pad 1
+#define PIN_SPI_MISO         (61u) // SERCOM pad 2
+#define PIN_SPI_SS           (62u) // SERCOM pad 3
+#define PIN_SPI_MOSI         (63u) // SERCOM pad 0
+#define PIN_SPI_SCK          (64u) // SERCOM pad 1
 
 static const uint8_t MISO = PIN_SPI_MISO;
 static const uint8_t SS   = PIN_SPI_SS ;
@@ -193,10 +195,10 @@ static const uint8_t MOSI = PIN_SPI_MOSI ;
 static const uint8_t SCK  = PIN_SPI_SCK ;
 
 // SPI1
-#define PIN_SPI1_MISO        (53u)
-#define PIN_SPI1_SS          (54u)
-#define PIN_SPI1_MOSI        (55u)
-#define PIN_SPI1_SCK         (56u)
+#define PIN_SPI1_MISO        (27u) // SERCOM pad 2
+#define PIN_SPI1_SS          (28u) // SERCOM pad 3
+#define PIN_SPI1_MOSI        (25u) // SERCOM pad 0
+#define PIN_SPI1_SCK         (26u) // SERCOM pad 1
 
 static const uint8_t MISO1 = PIN_SPI1_MISO;
 static const uint8_t SS1   = PIN_SPI1_SS;
@@ -314,8 +316,8 @@ extern Uart Serial3;
 
 #ifdef ENABLE_SPI1
 #define PERIPH_SPI1          sercom4
-#define PAD_SPI1_TX          SPI_PAD_2_SCK_3
-#define PAD_SPI1_RX          SERCOM_RX_PAD_0
+#define PAD_SPI1_TX          SPI_PAD_0_SCK_1
+#define PAD_SPI1_RX          SERCOM_RX_PAD_2
 #endif
 
 #endif /* _VARIANT_SODAQ_AUTONOMO */
