@@ -133,11 +133,11 @@ const PinDescription g_APinDescription[]=
   {},
   {},
 
-  // 61..64
-  { PORTB, 0, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_0 }, // MISO: SERCOM5/PAD[2]
-  { PORTB, 1, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_1 }, // SS: SERCOM5/PAD[3]},
-  { PORTB, 2, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_2 }, // MOSI: SERCOM5/PAD[0]
-  { PORTB, 3, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_3 }, // SCK: SERCOM5/PAD[1]
+  // 61..64 // SPI 1
+  { PORTB, 0, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_0 }, // MISO1: SERCOM5/PAD[2]
+  { PORTB, 1, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_1 }, // SS1: SERCOM5/PAD[3]},
+  { PORTB, 2, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_2 }, // MOSI1: SERCOM5/PAD[0]
+  { PORTB, 3, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_3 }, // SCK1: SERCOM5/PAD[1]
 };
 
 
@@ -148,8 +148,8 @@ SERCOM sercom0( SERCOM0 ) ;	//
 SERCOM sercom1( SERCOM1 ) ;	// 
 SERCOM sercom2( SERCOM2 ) ;	// 
 SERCOM sercom3( SERCOM3 ) ;	// I2C
-SERCOM sercom4( SERCOM4 ) ;	//
-SERCOM sercom5( SERCOM5 ) ;	// SPI
+SERCOM sercom4( SERCOM4 ) ;	// SPI
+SERCOM sercom5( SERCOM5 ) ;	// SPI1
 
 //Uart Serial( &sercom0, PIN_SERIAL_RX, PIN_SERIAL_TX, PAD_SERIAL_RX, PAD_SERIAL_TX );
 

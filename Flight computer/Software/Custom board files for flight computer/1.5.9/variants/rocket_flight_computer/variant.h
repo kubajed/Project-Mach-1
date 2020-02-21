@@ -173,37 +173,31 @@ static const uint8_t RI_AS = (18u);
 /*
  * SPI Interfaces
  */
-#define ENABLE_SPI1
 
 
-#ifdef ENABLE_SPI1
 #define SPI_INTERFACES_COUNT 2
-#else
-#define SPI_INTERFACES_COUNT 1
-#endif
 
-// SPI
-#define PIN_SPI_MISO         (61u) // SERCOM pad 2
-#define PIN_SPI_SS           (62u) // SERCOM pad 3
-#define PIN_SPI_MOSI         (63u) // SERCOM pad 0
-#define PIN_SPI_SCK          (64u) // SERCOM pad 1
-
-static const uint8_t MISO = PIN_SPI_MISO;
-static const uint8_t SS   = PIN_SPI_SS ;
-static const uint8_t SS_DFLASH  = PIN_SPI_SS ;
-static const uint8_t MOSI = PIN_SPI_MOSI ;
-static const uint8_t SCK  = PIN_SPI_SCK ;
-
-// SPI1
-#define PIN_SPI1_MISO        (27u) // SERCOM pad 2
-#define PIN_SPI1_SS          (28u) // SERCOM pad 3
-#define PIN_SPI1_MOSI        (25u) // SERCOM pad 0
-#define PIN_SPI1_SCK         (26u) // SERCOM pad 1
+// SPI1 for FLASH
+#define PIN_SPI1_MISO         (61u) // SERCOM pad 2
+#define PIN_SPI1_SS           (62u) // SERCOM pad 3
+#define PIN_SPI1_MOSI         (63u) // SERCOM pad 0
+#define PIN_SPI1_SCK          (64u) // SERCOM pad 1
 
 static const uint8_t MISO1 = PIN_SPI1_MISO;
-static const uint8_t SS1   = PIN_SPI1_SS;
-static const uint8_t MOSI1 = PIN_SPI1_MOSI;
-static const uint8_t SCK1  = PIN_SPI1_SCK;
+static const uint8_t SS1   = PIN_SPI1_SS ;
+static const uint8_t MOSI1 = PIN_SPI1_MOSI ;
+static const uint8_t SCK1  = PIN_SPI1_SCK ;
+
+// SPI for Radio
+#define PIN_SPI_MISO        (27u) // SERCOM pad 2
+#define PIN_SPI_SS          (28u) // SERCOM pad 3
+#define PIN_SPI_MOSI        (25u) // SERCOM pad 0
+#define PIN_SPI_SCK         (26u) // SERCOM pad 1
+
+static const uint8_t MISO = PIN_SPI_MISO;
+static const uint8_t SS   = PIN_SPI_SS;
+static const uint8_t MOSI = PIN_SPI_MOSI;
+static const uint8_t SCK  = PIN_SPI_SCK;
 
 // SD Card CS/SS pin
 static const uint8_t SS_2 = (46u);
@@ -310,14 +304,18 @@ extern Uart Serial3;
 //#define PERIPH_WIRE          sercom2
 //#define WIRE_IT_HANDLER      SERCOM2_Handler
 
-#define PERIPH_SPI           sercom5
-#define PAD_SPI_TX           SPI_PAD_0_SCK_1
-#define PAD_SPI_RX           SERCOM_RX_PAD_2
-
 #ifdef ENABLE_SPI1
-#define PERIPH_SPI1          sercom4
-#define PAD_SPI1_TX          SPI_PAD_0_SCK_1
-#define PAD_SPI1_RX          SERCOM_RX_PAD_2
+
+#define PERIPH_SPI1           sercom5
+#define PAD_SPI1_TX           SPI_PAD_0_SCK_1
+#define PAD_SPI1_RX           SERCOM_RX_PAD_2
+
 #endif
+
+
+
+#define PERIPH_SPI          sercom4
+#define PAD_SPI_TX          SPI_PAD_0_SCK_1
+#define PAD_SPI_RX          SERCOM_RX_PAD_2
 
 #endif /* _VARIANT_SODAQ_AUTONOMO */
