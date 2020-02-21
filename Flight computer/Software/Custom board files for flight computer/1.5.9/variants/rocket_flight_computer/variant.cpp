@@ -46,10 +46,10 @@ const PinDescription g_APinDescription[]=
   { PORTA, 11, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM1_CH1,   TCC1_CH1,     EXTERNAL_INT_11 }, // TCC1[1], D2
   { PORTB, 10, PIO_TIMER_ALT,  (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER_ALT), No_ADC_Channel, PWM0_CH4,   TCC0_CH4,     EXTERNAL_INT_10 }, // TCC0[4], D3
   { PORTB, 11, PIO_TIMER_ALT,  (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER_ALT), No_ADC_Channel, PWM0_CH5,   TCC0_CH5,     EXTERNAL_INT_11 }, // TCC0[5], D4
-  { PORTB, 12, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM4_CH0,   TC4_CH0,      EXTERNAL_INT_12 }, // TC4[0], D5
-  { PORTB, 13, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM4_CH1,   TC4_CH1,      EXTERNAL_INT_13 }, // TC4[1], D6
-  { PORTB, 14, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM5_CH0,   TC5_CH0,      EXTERNAL_INT_14 }, // TC5[0], D7
-  { PORTB, 15, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM5_CH1,   TC5_CH1,      EXTERNAL_INT_15 }, // TC5[1], D8
+  {}, // TC4[0], D5
+  {}, // TC4[1], D6
+  {}, // TC5[0], D7
+  {}, // TC5[1], D8
   { PORTA, 14, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM3_CH0,   TC3_CH0,      EXTERNAL_INT_14 }, // TC3[0], D9
   { PORTA, 15, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM3_CH1,   TC3_CH1,      EXTERNAL_INT_15 }, // TC3[1], D10
   { PORTA, 16, PIO_TIMER,      (PIN_ATTR_DIGITAL | PIN_ATTR_PWM | PIN_ATTR_TIMER),     No_ADC_Channel, PWM2_CH0,   TCC2_CH0,     EXTERNAL_INT_0  }, // TCC2[0], D11
@@ -114,8 +114,8 @@ const PinDescription g_APinDescription[]=
   { PORTA, 25, PIO_COM,        PIN_ATTR_NONE,                                         No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_NONE }, // USB/DP
 
   // 49..50 - Serial2 (alternative use for D6/D7)
-  { PORTB, 13, PIO_SERCOM,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_13 }, // RX, SERCOM4/PAD[1]
-  { PORTB, 14, PIO_SERCOM,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_14 }, // TX, SERCOM4/PAD[2]
+  {}, // RX, SERCOM4/PAD[1]
+  {}, // TX, SERCOM4/PAD[2]
 
   // 51..52 - Serial3 (alternative use for D12/D13)
   { PORTA, 17, PIO_SERCOM,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_1  }, // RX, SERCOM1/PAD[1]
