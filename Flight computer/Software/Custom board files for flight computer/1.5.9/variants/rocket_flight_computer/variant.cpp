@@ -118,10 +118,10 @@ const PinDescription g_APinDescription[]=
   { PORTA, 18, PIO_SERCOM,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_2  }, // TX, SERCOM1/PAD[2]
 
   // 53..56 - SPI flash (alternative use for D5..D8)
-  {}, // MISO1: SERCOM4/PAD[0]
-  {}, // SS1: SERCOM4/PAD[1]},
-  {}, // MOSI1: SERCOM4/PAD[2]
-  {}, // SCK1: SERCOM4/PAD[3]
+  { PORTB, 14, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_14 }, // MISO1: SERCOM4/PAD[0]
+  { PORTB, 15, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_15 }, // SS1: SERCOM4/PAD[1]},
+  { PORTB, 12, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_12 }, // MOSI1: SERCOM4/PAD[2]
+  { PORTB, 13, PIO_SERCOM_ALT,     PIN_ATTR_DIGITAL,                                      No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_13 }, // SCK1: SERCOM4/PAD[3]
 
   // 57..60
   {},

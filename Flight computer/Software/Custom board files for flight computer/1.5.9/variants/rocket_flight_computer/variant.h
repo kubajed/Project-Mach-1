@@ -314,7 +314,7 @@ extern Uart Serial3;
 
 #ifdef ENABLE_SPI1
 #define PERIPH_SPI1          sercom4
-#define PAD_SPI1_TX          SPI_PAD_2_SCK_3
+#define PAD_SPI1_TX          SPI_PAD_2_SCK_1 //was 3
 #define PAD_SPI1_RX          SERCOM_RX_PAD_0
 #endif
 
